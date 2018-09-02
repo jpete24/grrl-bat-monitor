@@ -73,7 +73,7 @@ int lbo_refresh = 1;
 int fb_refresh = 10000;
 
 // GPIO pin the low battery output connects too
-int lbo_gpio = 19;
+int lbo_gpio = 25;
 
 // called when terminating
 void signal_callback_handler(int signum)
